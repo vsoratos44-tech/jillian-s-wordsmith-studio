@@ -2,6 +2,7 @@ import { Layout } from "@/components/layout/Layout";
 import { Section } from "@/components/ui/section";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import { usePageMeta } from "@/hooks/use-page-meta";
 import {
   PenLine,
   Compass,
@@ -85,7 +86,25 @@ const services = [
   },
 ];
 
+const SERVICES_JSONLD = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "LinkedIn Ghostwriting & Content Strategy",
+  provider: {
+    "@type": "Organization",
+    name: "Jillian Whitlow Consulting",
+  },
+};
+
 const Services = () => {
+  usePageMeta({
+    title: "Services | Jillian Whitlow Consulting",
+    description:
+      "LinkedIn Ghostwriting, Content Strategy, and Thought Leadership Development for founders and executives who want authority without the time drain.",
+    canonicalPath: "/services",
+    jsonLd: SERVICES_JSONLD,
+  });
+
   return (
     <Layout>
       {/* Hero Section */}

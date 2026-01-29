@@ -1,32 +1,36 @@
 import { Link } from "react-router-dom";
 import { Section, SectionHeader } from "@/components/ui/section";
 import { Button } from "@/components/ui/button";
-import { BookOpen, Megaphone, Lightbulb, ArrowRight } from "lucide-react";
+import { PenLine, Compass, Lightbulb, ArrowRight } from "lucide-react";
 
 const services = [
   {
-    icon: BookOpen,
-    title: "Ghostwriting",
+    icon: PenLine,
+    title: "LinkedIn Ghostwriting",
     description:
-      "Books, articles, speeches, and thought leadership pieces written in your voice—you get the byline, I handle the writing.",
-    features: ["Books & eBooks", "Articles & Blogs", "Speeches & Presentations"],
+      "Your ideas. Your voice. Zero time investment. I’ll interview you, extract your best thinking, and turn it into a steady stream of content that sounds unmistakably like you.",
+    features: [
+      "Interview-based voice extraction",
+      "Strategy to posting (handled)",
+      "Content that sounds like you",
+    ],
     href: "/services#ghostwriting",
   },
   {
-    icon: Megaphone,
-    title: "Copywriting",
+    icon: Compass,
+    title: "Content Strategy",
     description:
-      "Persuasive copy that converts readers into customers. From websites to email campaigns, every word works toward your goals.",
-    features: ["Website Copy", "Email Campaigns", "Sales Pages"],
-    href: "/services#copywriting",
+      "A clear plan for what to say, how to say it, and why it matters. We’ll build a roadmap that turns your expertise into content that actually resonates.",
+    features: ["Messaging framework", "Content pillars", "Engagement strategy"],
+    href: "/services#strategy",
   },
   {
     icon: Lightbulb,
-    title: "Content Strategy",
+    title: "Thought Leadership Development",
     description:
-      "A comprehensive content roadmap aligned with your business goals. Know what to say, when to say it, and where to say it.",
-    features: ["Content Audits", "Editorial Calendars", "Brand Voice Development"],
-    href: "/services#strategy",
+      "Position yourself as the go-to expert in your space. This is the full package: ghostwriting, strategy, engagement support, and ongoing optimization.",
+    features: ["Ghostwriting + strategy", "Engagement support", "Ongoing optimization"],
+    href: "/services#thought-leadership",
   },
 ];
 
@@ -34,9 +38,9 @@ export function ServicesOverview() {
   return (
     <Section variant="muted">
       <SectionHeader
-        eyebrow="Services"
-        title="Words That Move People"
-        subtitle="Whether you need a book, a website, or a complete content strategy—I'll craft the words that tell your story and drive results."
+        eyebrow="Recommended"
+        title="How we can work together"
+        subtitle="Every engagement is tailored, but here’s where most clients start:"
       />
 
       <div className="grid gap-8 lg:grid-cols-3">
@@ -64,7 +68,7 @@ export function ServicesOverview() {
             </ul>
             <Button asChild variant="outline" className="mt-auto group-hover:border-accent group-hover:text-accent">
               <Link to={service.href}>
-                Learn More
+                Learn more
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </Link>
             </Button>
