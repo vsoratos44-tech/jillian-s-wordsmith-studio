@@ -8,11 +8,11 @@ export function CTASection() {
     <Section className="py-20 md:py-28">
       <div className="mx-auto max-w-3xl text-center">
         <h2 className="font-heading text-3xl font-bold tracking-tight md:text-4xl lg:text-5xl">
-          Ready to Tell Your Story?
+          Ready to stop overthinking and start connecting?
         </h2>
         <p className="mx-auto mt-6 max-w-xl text-lg text-muted-foreground">
-          Let's discuss your project over a free discovery call. No pressure, no 
-          obligations—just a conversation about how we might work together.
+          Let’s have a real conversation about where you are, where you want to be, and whether I’m the right person to
+          help you get there. No pitch, no pressure — just 30 minutes to see if we click.
         </p>
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <Button
@@ -22,12 +22,12 @@ export function CTASection() {
           >
             <Link to="/contact">
               <Calendar className="mr-2 h-4 w-4" />
-              Book a Free Call
+              Book a Discovery Call
             </Link>
           </Button>
           <Button asChild variant="outline" size="lg" className="px-8">
             <Link to="/services">
-              Explore Services
+              Explore services
               <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </Button>

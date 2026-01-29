@@ -5,25 +5,25 @@ const steps = [
     number: "01",
     title: "Discovery Call",
     description:
-      "We start with a conversation about your goals, audience, and vision. I learn your voice, your story, and what success looks like for you.",
+      "We talk. I listen. A 30-minute conversation where I learn about your business, your goals, and what you're hoping to achieve with your LinkedIn presence. No pitch, no pressure — just a real conversation to see if we'd work well together.",
   },
   {
     number: "02",
-    title: "Strategy & Research",
+    title: "Strategy & Onboarding",
     description:
-      "I dive deep into your industry, competitors, and audience. We develop a content strategy that positions you as the authority you are.",
+      "We find your voice. Through a deep-dive interview, I’ll extract your stories, your POV, and the ideas that make you you. We’ll define your content pillars, nail down your messaging, and create a strategy that actually fits your life.",
   },
   {
     number: "03",
-    title: "Writing & Refinement",
+    title: "Content Creation",
     description:
-      "I craft your content with care, capturing your authentic voice. You review, we refine, and we don't stop until it's perfect.",
+      "Writing & refinement. I write. You approve. Easy! I draft your content based on our conversations and strategy. You review, give feedback, and we refine until it sounds exactly like you wrote it (because, in a way, you did). Then it goes live.",
   },
   {
     number: "04",
-    title: "Deliver & Support",
+    title: "Results & Iteration",
     description:
-      "You receive polished, publish-ready content. I remain available for revisions and ongoing support as your content partner.",
+      "We measure. We adjust. We track what’s working — not just likes, but real results: profile views, connection requests, inbound inquiries. Then we double down on what resonates and adjust what doesn’t. Rinse, repeat, grow.",
   },
 ];
 
@@ -31,9 +31,9 @@ export function ProcessSection() {
   return (
     <Section>
       <SectionHeader
-        eyebrow="How It Works"
-        title="A Process Built on Partnership"
-        subtitle="No templates, no AI shortcuts. Just a collaborative process designed to bring your unique voice and vision to life."
+        eyebrow="Recommended"
+        title="Here’s how it works"
+        subtitle="(It’s simpler than you think.)"
       />
 
       <div className="relative">

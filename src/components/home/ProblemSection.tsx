@@ -1,5 +1,6 @@
 import { Section, SectionHeader } from "@/components/ui/section";
 import { Clock, Brain, TrendingDown } from "lucide-react";
+import { RotatingPainPoints } from "@/components/home/RotatingPainPoints";
 
 const problems = [
   {
@@ -46,6 +47,14 @@ export function ProblemSection() {
             <p className="text-muted-foreground">{problem.description}</p>
           </div>
         ))}
+      </div>
+
+      <div className="mt-12">
+        <RotatingPainPoints />
+        <p className="mt-6 text-lg text-muted-foreground">
+          Here’s the thing: you don’t need to become a content creator. You need someone who can extract what you already
+          know — and turn it into content that opens doors.
+        </p>
       </div>
     </Section>
   );
