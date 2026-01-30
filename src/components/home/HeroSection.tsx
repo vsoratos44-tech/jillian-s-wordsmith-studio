@@ -13,7 +13,7 @@ export function HeroSection() {
           {/* Copy */}
           <div className="md:col-span-7">
             <h1 className="font-heading text-4xl font-bold tracking-tight text-foreground md:text-5xl lg:text-6xl">
-              For founders who are too busy to post but too smart to sound like everyone else — or AI.
+              For Founders with a vision and voice who are too busy to post.
             </h1>
 
             <p className="mt-6 max-w-2xl text-lg text-muted-foreground md:text-xl">
