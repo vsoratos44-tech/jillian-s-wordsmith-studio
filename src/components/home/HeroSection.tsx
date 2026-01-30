@@ -37,8 +37,25 @@ export function HeroSection() {
             
           </div>
 
-          {/* Headshot placeholder */}
-          
+          {/* Headshot area */}
+          <div className="relative hidden lg:col-span-5 lg:block">
+            <div className="relative aspect-[4/5] w-full overflow-hidden rounded-2xl bg-muted/50 border border-border/50">
+              {/* Replace this placeholder with actual headshot image */}
+              <div className="absolute inset-0 flex items-center justify-center text-muted-foreground/50">
+                <div className="text-center p-8">
+                  <div className="mx-auto mb-4 h-24 w-24 rounded-full bg-muted flex items-center justify-center">
+                    <span className="text-4xl">👤</span>
+                  </div>
+                  <p className="text-sm font-medium">Headshot placeholder</p>
+                  <p className="text-xs mt-1">Replace with Jillian's photo</p>
+                </div>
+              </div>
+              {/* Decorative gradient overlay */}
+              <div className="absolute inset-0 bg-gradient-to-t from-background/20 to-transparent pointer-events-none" />
+            </div>
+            {/* Decorative accent shape */}
+            <div className="absolute -bottom-6 -right-6 -z-10 h-72 w-72 rounded-full bg-accent/10 blur-3xl" />
+          </div>
         </div>
       </div>
     </section>;
