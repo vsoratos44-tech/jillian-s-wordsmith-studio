@@ -20,8 +20,8 @@ export function Header() {
       <nav className="container mx-auto flex h-16 items-center justify-between px-4 lg:px-8">
         {/* Logo */}
         <Link to="/" className="flex items-center space-x-2">
-          <span className="font-heading text-xl font-bold text-primary">
-            J. W. Consulting
+          <span className="text-2xl font-semibold text-primary" style={{ fontFamily: "'Dancing Script', cursive" }}>
+            J.W. Consulting
           </span>
         </Link>
 
