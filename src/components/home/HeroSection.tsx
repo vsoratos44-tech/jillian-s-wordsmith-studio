@@ -1,8 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import jillianHeadshot from "@/assets/jillian-headshot-cream.png";
-import jillianHeadshotMask from "@/assets/jillian-headshot-mask-bw.png";
+import jillianHeadshot from "@/assets/jillian-headshot-seamless.png";
 
 export function HeroSection() {
   return (
@@ -39,21 +38,11 @@ export function HeroSection() {
 
           {/* Headshot area */}
           <div className="relative md:col-span-5 lg:col-span-5">
-            <div className="relative mx-auto aspect-square w-64 overflow-hidden md:w-full bg-background">
+            <div className="relative mx-auto aspect-square w-64 overflow-hidden md:w-full">
               <img
                 src={jillianHeadshot}
                 alt="Jillian Whitlow - LinkedIn Ghostwriter & Content Strategist"
                 className="h-full w-full object-cover object-top"
-                style={{
-                  WebkitMaskImage: `url(${jillianHeadshotMask})`,
-                  maskImage: `url(${jillianHeadshotMask})`,
-                  WebkitMaskRepeat: "no-repeat",
-                  maskRepeat: "no-repeat",
-                  WebkitMaskSize: "cover",
-                  maskSize: "cover",
-                  WebkitMaskPosition: "top",
-                  maskPosition: "top",
-                }}
               />
             </div>
             {/* Decorative accent shape */}
