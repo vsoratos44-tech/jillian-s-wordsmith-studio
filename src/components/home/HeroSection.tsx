@@ -17,10 +17,9 @@ export function HeroSection() {
             </h1>
 
             <p className="mt-6 max-w-2xl text-lg text-muted-foreground md:text-xl">
-              I help founders build social authority and generate revenue. Most know they should be posting on LinkedIn,
-              but don't have the time (or patience) to get it done. Together we'll transform your compelling ideas into
-              content that builds trust with your audience, connects them to your brand, and builds lasting authority to
-              grow your business.
+              I help founders build social authority and grow their brand. Most know they should be posting on LinkedIn,
+              but don't have the time (or patience) to get it done. Together, we'll transform your vision into content
+              that builds trust, connects them to your brand, and creates lasting authority to grow your business.
             </p>
 
             <div className="mt-10 flex flex-col items-start gap-4 sm:flex-row">
