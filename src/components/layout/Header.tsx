@@ -21,7 +21,7 @@ export function Header() {
         {/* Logo */}
         <Link to="/" className="flex items-center space-x-2">
           <span className="font-heading text-xl font-bold text-primary">
-            Jillian Whitlow
+            J. W. Consulting
           </span>
         </Link>
 
