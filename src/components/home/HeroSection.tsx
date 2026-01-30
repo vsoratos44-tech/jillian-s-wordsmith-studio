@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import jillianHeadshot from "@/assets/jillian-headshot-seamless.png";
+import jillianHeadshot from "@/assets/jillian-headshot.png";
 
 export function HeroSection() {
   return (
