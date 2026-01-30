@@ -38,7 +38,7 @@ export function HeroSection() {
 
           {/* Headshot area */}
           <div className="relative md:col-span-5 lg:col-span-5">
-            <div className="relative mx-auto aspect-square w-64 overflow-hidden md:w-full">
+            <div className="relative mx-auto aspect-square w-64 overflow-hidden md:w-full bg-background">
               <img
                 src={jillianHeadshot}
                 alt="Jillian Whitlow - LinkedIn Ghostwriter & Content Strategist"
